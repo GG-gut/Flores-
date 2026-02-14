@@ -1,0 +1,23 @@
+.romantic-text {
+  position: fixed;
+  top: 8%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 3vmin;
+  color: #ffc0cb;
+  font-family: "Georgia", serif;
+  letter-spacing: 0.2vmin;
+  text-shadow:
+    0 0 1vmin rgba(255, 182, 193, 0.8),
+    0 0 2vmin rgba(255, 105, 180, 0.6),
+    0 0 3vmin rgba(255, 20, 147, 0.4);
+  z-index: 3;
+  animation: fadeInText 3s ease forwards;
+  opacity: 0;
+}
+@keyframes fadeInText {
+  to {
+    opacity: 1;
+  }
+}
